@@ -48,109 +48,109 @@ function removefromcart(name) {
 
 function getimage(name) {
     if (name === 'Expresso') {
-        return '/Images/expresso2.jpg';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/expresso2.jpg';
     }
     if (name == 'Americano') {
-        return '/Images/americano.jpg';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/americano.jpg';
     }
     if (name == 'Mocha') {
-        return '/Images/mochacoffee.jpg';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/mochacoffee.jpg';
     }
     if (name == 'Cappuncino') {
-        return '/Images/cappuccino.webp';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/cappuccino.webp';
     }
     if (name == 'Latte') {
-        return '/Images/latte.jpg';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/latte.jpg';
     }
     if (name == 'Flat White') {
-        return '/Images/flatwhite.jpeg';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/flatwhite.jpeg';
     }
     if (name == 'Hot Chocolate') {
-        return '/Images/hotchocolate2.jpg';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/hotchocolate2.jpg';
     }
     if (name == 'White Hot Chocolate') {
-        return '/Images/whitehotchocolate.webp';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/whitehotchocolate.webp';
     }
     if (name == 'Chai Latte') {
-        return '/Images/chailatte.jpg';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/chailatte.jpg';
     }
     if (name == 'Salted Caramel Frappé') {
-        return '/Images/saltedcaramelfrappe.jpg';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/saltedcaramelfrappe.jpg';
     }
     if (name == 'Chocolate Chip Frappé') {
-        return '/Images/ChocolateChipFrappe.jpg';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/ChocolateChipFrappe.jpg';
     }
     if (name == 'Iced Latte') {
-        return '/Images/icedlatte.webp';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/icedlatte.webp';
     }
     if (name == 'Iced Cappuncino') {
-        return '/Images/icedcappuccino.webp';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/icedcappuccino.webp';
     }
     if (name == 'Iced Chai Latte') {
-        return '/Images/icedchailatte.jpg';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/icedchailatte.jpg';
     }
     if (name == 'Iced Black Americano') {
-        return '/Images/icedblackamericano.jpg';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/icedblackamericano.jpg';
     }
     if (name == 'Iced Mocha') {
-        return '/Images/icedmocha.jpg';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/icedmocha.jpg';
     }
     if (name == 'English Breakfast Tea') {
-        return '/Images/englishbreakfasttea.jpeg';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/englishbreakfasttea.jpeg';
     }
     if (name == 'Croissant') {
-        return '/Images/croissant.webp';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/croissant.webp';
     }
     if (name == "Chocolate Croissant") {
-        return '/Images/chocolatecroissant.jpg';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/chocolatecroissant.jpg';
     }
     if (name == 'Blueberry Muffin') {
-        return '/Images/blueberrymuffin.jpg';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/blueberrymuffin.jpg';
     }
     if (name == 'Chocolate Chip Muffin') {
-        return '/Images/chocolatechipmuffin.jpg';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/chocolatechipmuffin.jpg';
     }
     if (name == 'Chocolate Muffin') {
-        return '/Images/chocolatemuffin.jpg';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/chocolatemuffin.jpg';
     }
     if (name == 'Chocolate Chip Cookie') {
-        return '/Images/chocolatechipcookie.jpg';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/chocolatechipcookie.jpg';
     }
     if (name == 'Double Chocolate Chip Cookie') {
-        return '/Images/Double Chocolate Chip Cookie';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/Double Chocolate Chip Cookie';
     }
     if (name == 'Brownies') {
-        return '/Images/brownies.jpg';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/brownies.jpg';
     }
     if (name == 'Avocado Toast') {
-        return '/Images/avocadotoast.jpg';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/avocadotoast.jpg';
     }
     if (name == 'BLT Sandwich') {
-        return '/Images/BLTsandwich.jpg';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/BLTsandwich.jpg';
     }
     if (name == 'Bagel Sandwich') {
-        return '/Images/bagelsandwich.jpg';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/bagelsandwich.jpg';
     }
     if (name == 'Grilled Cheese Sandwich') {
-        return '/Images/grilledcheesesandwich.jpg';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/grilledcheesesandwich.jpg';
     }
     if (name == 'Blueberry Cheesecake') {
-        return '/Images/blueberrycheescake.jpg';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/blueberrycheescake.jpg';
     }
     if (name == 'Strawberry Cheesecake') {
-        return '/Images/strawberrycheesecake.jpg';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/strawberrycheesecake.jpg';
     }
     if (name == 'Tiramisu') {
-        return '/Images/tiramisu.webp';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/tiramisu.webp';
     }
     if (name == 'Chocolate Cake') {
-        return '/Images/chocolatecake.jpeg';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/chocolatecake.jpeg';
     }
     if (name == 'Carrot Cake') {
-        return '/Images/carrotcake2.jpg';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/carrotcake2.jpg';
     }
     if (name == 'Red Velvet Cake') {
-        return '/Images/redvelvetcake.webp';
+        return 'https://pravalika234.github.io/Elite-Cafe---Assignment/Images/redvelvetcake.webp';
     }
 }
 
