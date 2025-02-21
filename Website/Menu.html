@@ -8,18 +8,19 @@
     <title>Menu</title>
     <!-- Font Awesome link -->
     <script src="https://kit.fontawesome.com/e39c4d7f07.js" crossorigin="anonymous"></script>
+    <script src="cart.js"></script>
 </head>
 <body>
     <section class="header">
         <nav>
             <header>
                 <div class="logo-image">
-                    <a href="test.html"><img src="/Images/Logo.png" alt="logo" class="img-fluid"></a>
+                    <a href="index.html"><img src="/Images/Logo.png" alt="logo" class="img-fluid"></a>
                 </div>
                 <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                     <ul class="menu">
-                        <li><a href="test.html"> Home </a></li>
+                        <li><a href="index.html"> Home </a></li>
                         <li><a href="About.html"> About </a> </li>
                         <li><a href="Menu.html"> Menu </a> </li>
                         <li><a href="Book.html"> Book Table </a> </li>
@@ -27,14 +28,15 @@
                 <i class="fa fa-bars" onclick="showMenu()"></i>
                 </div>
                 <div class="icons1">
-                    <div class="cart">
-                        <a href="Cart.html">
-                            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
-                            </svg>
-                         </a>
-                    </div>           
-                    <div class="search">
+                    <div class="icons-container">
+                        <div class="cart" onclick="openCart();" id="cart-button">
+                                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                                </svg>
+                                <span id="cart-number">0</span>
+                        </div>
+                    </div>       
+                    <div class="search" id="search-button">
                         <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                             <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="m21 21-3.5-3.5M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"/>
                         </svg>
@@ -43,7 +45,7 @@
             </header>
         </nav>
 
-        <!-- Menu -->
+    <!-- Menu -->
     <center><h1>Menu</h1></center>
     <section class="menu_section">
         <div class="menu-container">
@@ -260,6 +262,24 @@
         </div>
     </section>
 
+    <!-- Cart Section -->
+    <section class="showcart" id="cart-main" style="display: none;">
+        <div class="carttab">
+            <h1>Cart</h1>
+            <div class="listcart" id="cart">
+            </div>
+
+            <div class="total">
+                <h3>Total: £<span id="total">0.00</span></h3>
+            </div>
+
+            <div class="buttons">
+                <button onclick="closeCart();" class="close-btn">CLOSE</button>
+                <button onclick="emptyCart();" class="checkout-btn">Check Out</button>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer -->
     <section class="footer">
             <p>&copy; 2025 Your Cafe. All Rights Reserved.</p>
@@ -272,5 +292,9 @@
                 <i class="fa fa-linkedin"></i>
             </div>
     </section>
+
+    <script>
+        showcart();
+    </script>
 </body>
 </html>

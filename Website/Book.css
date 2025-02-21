@@ -148,115 +148,68 @@ nav .fa{
     display: none;
 }
 
-@media(max-width: 700px)
-{
-    .text-box h1{
-    font-size: 20px;
-}
-    .nav-links ul li{
-        display: block;
-    }
-    .nav-links{
-        position: absolute;
-        background: black;
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        right: -200px;
-        text-align: left;
-        z-index: 2;
-        transition: 1s;
-    }
-
-    nav .fa{
-        display: block;
-        color: black;
-        margin: 10px; 
-        font-size: 22px;
-        cursor: pointer;
-    }
-
-    .nav-links ul{
-        padding: 30px;
-    } 
-}
-
 .icons1 {
     display: flex;
     align-items: center;
     gap: 25px;
 }
 
-/* Menu Section */
-h1 {
-    margin-top: -20px;
-}
-
-
-.menu-section {
-    text-align: center;
-    padding: 20px;
-}
-
-.menu-container {
+/* Book Section */
+.book_section {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px;
-}
-
-.menu1, .menu2, .menu3, .menu4, .menu5, 
-.menu6, .menu7, .menu8, .menu9, .menu10, 
-.menu11, .menu12, .menu13, .menu14, .menu15,
-.menu16, .menu17, .menu18, .menu19, .menu20,
-.menu21, .menu22, .menu23, .menu24, .menu25,
-.menu26, .menu27, .menu28, .menu29, .menu30,
-.menu31, .menu32, .menu33, .menu34, .menu35 {
-    width: 200px;
-    text-align: center;
-    padding: 30px;
-    background: white;
-    border-radius: 8px;
-    transition: transform 0.3s ease-in-out;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.menu1:hover, .menu2:hover, .menu3:hover, .menu4:hover, .menu5:hover, 
-.menu6:hover, .menu7:hover, .menu8:hover, .menu9:hover, .menu10:hover,
-.menu11:hover, .menu12:hover, .menu13:hover, .menu14:hover, .menu15:hover, 
-.menu16:hover, .menu17:hover, .menu18:hover, .menu19:hover, .menu20:hover,
-.menu21:hover, .menu22:hover, .menu23:hover, .menu24:hover, .menu25:hover,
-.menu26:hover, .menu27:hover, .menu28:hover, .menu29:hover, .menu30:hover,
-.menu31:hover, .menu32:hover, .menu33:hover, .menu34:hover, .menu34:hover, .menu35:hover {
-    transform: scale(1.05);
-}
-
-.menu1 img, .menu2 img, .menu3 img, .menu4 img, .menu5 img, 
-.menu6 img, .menu7 img, .menu8 img, .menu9 img, .menu10 img,
-.menu11 img, .menu12 img, .menu13 img, .menu14 img, .menu15 img, 
-.menu16 img, .menu17 img, .menu18 img, .menu19 img, .menu20 img,
-.menu21 img, .menu22 img, .menu23 img, .menu24 img, .menu25 img,
-.menu26 img, .menu27 img, .menu28 img, .menu29 img, .menu30 img,
-.menu31 img, .menu32 img, .menu33 img, .menu34 img, .menu35 img {
+    align-items: center;
+    padding: auto;
     width: 100%;
-    height: 250px;
-    border-radius: 5px;
 }
 
-/* Add to Cart Button */
-.addtocart {
-    background-color: rgba(249, 251, 217, 0.926);
-    color: black;
-    border: transparent;
-    padding: 10px 15px;
-    font-size: 10px;
+.book_bg_box img {
+    width: 100%;
+    max-width: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.container {
+    max-height: 700px;
+    background: white;
+    padding: 80px;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.heading_container h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
     border-radius: 5px;
-    cursor: pointer;
+    font-size: 14px;
+    outline: none;
+}
+
+button {
+    background-color: black;
+    border: transparent;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 8px;
     transition: 0.3s ease-in; 
 }
 
-/* Footer */
+button:hover {
+    background-color: #F5F5F5;
+    color: black;
+}
+
+/*----- Footer ----- */
 .footer{
     background:rgba(246, 245, 224, 0.813);
     width: 100%;
