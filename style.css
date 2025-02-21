@@ -278,3 +278,16 @@ label {
     padding: 18px 0;
     font-size: 20px;
 }
+
+.no-link-styles {
+    text-decoration: none;
+    color: black;
+}
+
+.no-link-styles:active {
+    color: black;
+}
+
+.no-link-styles:hover {
+    color: black;
+}
