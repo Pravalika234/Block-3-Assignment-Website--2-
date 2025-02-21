@@ -49,7 +49,7 @@
          </nav>
          
          <div class="text-box"> 
-            <h1> Elite Cafe </h1>
+            <h2> Elite Cafe </h2>
             <p>  
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -61,12 +61,12 @@
 
     <!-- Popular Menu Items -->
     <section class="popular-menu">
-        <h1>Our Popular Menu Items</h1>
+        <h2>Our Popular Menu Items</h2>
         <div id="popular-menu-items" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <a class="carousel-item active" href="Menu.html">
-                    <img src="https://pravalika234.github.io/Elite-Cafe---Assignment/Images/expresso1.jpg" class="d-block" alt="Espresso">
-                    <h4>Espresso</h4>
+                <a class="carousel-item active no-link-styles" href="Menu.html">
+                    <img src="https://pravalika234.github.io/Elite-Cafe---Assignment/Images/expresso1.jpg" class="d-block" alt="Chocolate Croissant">
+                    <h4>Expresso</h4>
                 </a>
                 <a class="carousel-item no-link-styles" href="Menu.html">
                     <img src="https://pravalika234.github.io/Elite-Cafe---Assignment/Images/croissant1.avif" class="d-block" alt="Chocolate Croissant">
@@ -95,26 +95,32 @@
     
     <!-- Delivery Options -->
     <section class="delivery-options">
-        <h1>Delivery Options</h1>
+        <h2>Delivery Options</h2>
         <p>You can also order through these delivery apps.</p>
         <div class="options">
             <div class="option1">
-                <img src="https://pravalika234.github.io/Elite-Cafe---Assignment/Images/ubereatslogo.webp" alt="ubereatslogo" class="img-fluid"></a>
+                <img src="https://pravalika234.github.io/Elite-Cafe---Assignment/Images/ubereatslogo.webp" alt="ubereatslogo" class="img-fluid">
                 <h4>Uber Eats</h4>
                 <p>Start your order via the Uber Eats app or website.</p>
-                <a href="https://www.ubereats.com/"><button type="button" class="order-now-btn">Order Now</button></a>
+                <button type="button" class="order-now-btn" onclick="window.location.href='https://www.ubereats.com/'">
+                    Order Now
+                </button> 
             </div>
             <div class="option2">
-                <img src="https://pravalika234.github.io/Elite-Cafe---Assignment/Images/deliveroologo.png" alt="deliveroologo" class="img-fluid"></a>
+                <img src="https://pravalika234.github.io/Elite-Cafe---Assignment/Images/deliveroologo.png" alt="deliveroologo" class="img-fluid">
                 <h4>Deliveroo</h4>
                 <p>Start your order via the Deliveroo app or website.</p>
-                <a href="https://deliveroo.co.uk/"><button type="button" class="order-now-btn">Order Now</button></a>
+                <button type="button" class="order-now-btn" onclick="window.location.href='https://deliveroo.co.uk/'">
+                    Order Now
+                </button> 
             </div>
             <div class="option3">
-                <img src="https://pravalika234.github.io/Elite-Cafe---Assignment/Images/justeatlogo.jpg" alt="justeatlogo" class="img-fluid"></a>
+                <img src="https://pravalika234.github.io/Elite-Cafe---Assignment/Images/justeatlogo.jpg" alt="justeatlogo" class="img-fluid">
                 <h4>Just Eat</h4>
                 <p>Start your order via the Just Eat app or website.</p>
-                <a href="https://www.just-eat.co.uk/"><button type="button" class="order-now-btn">Order Now</button></a>
+                <button type="button" class="order-now-btn" onclick="window.location.href='https://www.just-eat.co.uk/'">
+                    Order Now
+                </button>
             </div>
         </div>
     </section>
@@ -177,18 +183,18 @@
     </div>
 
     <!-- Footer -->
-    <section class="footer">
+    <div class="footer">
         <p>&copy; 2025 Your Cafe. All Rights Reserved.</p>
         <p><a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a></p>
-
+    
         <div class="icons2">
             <i class="fa fa-facebook"></i>
             <i class="fa fa-twitter"></i>
             <i class="fa fa-instagram"></i>
             <i class="fa fa-linkedin"></i>
         </div>
-    </section>
-
+    </div>
+    
     <script>
         // Javascript for Toggle Menu
         var navLinks = document.getElementById("navLinks");
